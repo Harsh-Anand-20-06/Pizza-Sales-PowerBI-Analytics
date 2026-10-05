@@ -10,7 +10,6 @@ An interactive **Pizza Sales Analytics Dashboard** built using **Microsoft Power
 
 ![Pizza Sales Dashboard](https://github.com/user-attachments/assets/120d887d-649b-4600-989e-8a188cb1bc44)
 
-
 The main dashboard provides an overview of:
 
 - Total Revenue
@@ -36,7 +35,7 @@ The second dashboard page analyzes the **Top 5 and Bottom 5 pizzas** based on:
 - Quantity Sold
 - Number of Orders
 
-This helps identify the products contributing most and least to overall sales.
+This allows comparison of the highest and lowest-performing pizzas across different sales metrics.
 
 ---
 
@@ -61,7 +60,7 @@ The dashboard also supports filtering by **Pizza Category**, allowing category-s
 - Pizzas Sold
 - Average Order Value
 - Average Pizzas per Order
-- Daily and monthly trends
+- Daily and monthly order trends
 
 ---
 
@@ -92,7 +91,7 @@ The objective of this project is to analyze pizza sales data and build an intera
 - Which days generate the highest number of orders?
 - Which months have the highest order volume?
 - Which pizza categories contribute the most revenue?
-- Which pizza sizes are most popular?
+- Which pizza sizes contribute the most revenue?
 - Which pizzas are the best sellers?
 - Which pizzas are the worst sellers?
 
@@ -101,7 +100,7 @@ The objective of this project is to analyze pizza sales data and build an intera
 #  Tools & Technologies
 
 - **Power BI** – Dashboard development and visualization
-- **SQL Server** – Data analysis and validation
+- **SQL Server** – Data analysis and metric validation
 - **SQL** – KPI calculations and analytical queries
 - **DAX** – Power BI measures and calculations
 - **Power Query** – Data preparation and transformation
@@ -120,7 +119,7 @@ The objective of this project is to analyze pizza sales data and build an intera
 
 ---
 
-#  Analysis Performed
+# 📊 Analysis Performed
 
 ### 1. KPI Analysis
 
@@ -140,7 +139,7 @@ Analyzed total orders across the days of the week.
 
 ### 3. Monthly Trend Analysis
 
-Analyzed order volume across months to identify seasonal patterns.
+Analyzed total orders across the months.
 
 **July** has the highest order volume in the full-year view.
 
@@ -169,7 +168,7 @@ Analyzed revenue contribution across:
 
 ### 6. Best & Worst Sellers
 
-Identified the Top 5 and Bottom 5 pizzas based on:
+Identified the **Top 5 and Bottom 5 pizzas** based on:
 
 - Revenue
 - Quantity Sold
@@ -200,7 +199,7 @@ The SQL analysis includes:
 - Top 5 pizzas by total orders
 - Bottom 5 pizzas by total orders
 
-The SQL queries and corresponding SQL Server result screenshots are included in the repository.
+The SQL queries along with the corresponding **SQL Server result screenshots** are included in the `SQL` folder.
 
 ---
 
